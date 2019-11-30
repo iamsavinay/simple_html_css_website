@@ -1,0 +1,10 @@
+sudo: required
+services:
+  - docker
+
+before_install:
+  - docker build -t iamsavinay/simple_html_css_website -f Dockerfile.dev .
+
+script:
+  - docker run -e CI=true iamsavinay/simple_html_css_website npm run test
+  
