@@ -1,11 +1,11 @@
 ---
 kind: pipeline
 type: docker
-name: default
+name: frontend
 
 steps:
 - name: build
-  image: golang
+  image: node
   commands:
-  - go build
-  - go test
+  - npm install
+  - npm test
