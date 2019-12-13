@@ -1,3 +1,7 @@
+## Simple website....
+
+[![Build Status](https://drone.savinaykumar.com/api/badges/iamsavinay/simple_html_css_website/status.svg)](https://drone.savinaykumar.com/iamsavinay/simple_html_css_website)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
